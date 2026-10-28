@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bfb17a2-834b-43e9-8e40-f9ba8efef818">
+  <producedTypes>
+    <objectType typeId="4dd7a03e-8022-484c-924e-690f370f80e3" valueTypeId="36ecd57a-f774-47fe-aa9c-0209b047de67"/>
+    <refType typeId="2286bda3-f074-46ae-9eb0-d2a4638c0c4c" valueTypeId="1dc74a3b-a06a-4f97-a156-d4742ee8bd51"/>
+    <selectionType typeId="dd005aca-458f-4381-96f9-6636b37004ce" valueTypeId="69f52af3-bd71-48a6-a7f1-0252ad92ba13"/>
+    <listType typeId="73f612e2-6317-4583-9dc2-f2753da5f68d" valueTypeId="d64d8ae4-d268-401d-8411-0815d6a1c509"/>
+    <managerType typeId="c3256f86-12cd-43de-bccc-17fbfb62fcac" valueTypeId="1f9fdc30-d4b8-4aea-8d37-63ecc282cfcb"/>
+  </producedTypes>
+  <name>ВКМ_Уведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9d8104a3-81d7-40ce-966b-23e68592a2b9">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

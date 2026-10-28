@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab8b480a-4a22-4370-a04d-f8eb00f4a593">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеРеализаций</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Constant.ВКМ_ИДГруппыТелеграм</content>
+  <content>Catalog.ВКМ_Уведомления</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомлений</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>DataProcessor.ВКМ_ОтправкаУведомлений</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>Document.ВКМ_ВыплатаЗаработнойПлаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_НачислениеВыплатаЗарплаты</content>
+  <content>Role.ВКМ_ПланированиеОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходОтпусков</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ОстаткиОтпусков</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CommonModule.ВКМ_РаботаСФормами</content>
+  <content>CommonModule.ВКМ_ДлительныеОперацииВызовСервера</content>
+  <content>CommonModule.ВКМ_УправлениеДоступом</content>
+  <content>Constant.ВКМ_ИДБотаТелеграмм</content>
+</mdclass:Subsystem>
